@@ -38,7 +38,10 @@ $(function () {
     /////////////////////////////////////////////////
     //////////ONLY CHANGE BELOW THIS POINT///////////
     /////////////////////////////////////////////////
-
+    
+    createPlatform(500, 300, 200, 20) // short but wide platform located 500 pixels from the left of the screen and 300 pixels from the top of the screen
+    createCollectable("steve", 500, 300, 20, 0.5); // creates a "steve" collectible at the coordinates (500, 300), falling with a high gravity of 0, and bouncing with 100% bounce
+    createCollectable("grace", 500, 300); // creates a "grace" collectible at the coordinates (500, 300), falling with default gravity of 25 and bouncing with default bounce 10%
     // TODO 1
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms
