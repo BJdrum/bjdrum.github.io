@@ -80,8 +80,9 @@ $(document).ready(function () {
 
   function staticDisplay() {
     // TODO 3-b: call your handleStatic function
-      let handleStatic = (dataShapes[currerntIndex]);
+       handleStatic (dataShapes[currentIndex]);
   }
+
 
   function goodDisplay() {
     // TODO 4-b: call your handleGood function
